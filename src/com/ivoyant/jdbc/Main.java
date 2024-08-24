@@ -15,7 +15,7 @@ public class Main {
         ResultSet rs = null;
         try {
             con = DriverManager.getConnection(url, un, pass);
-            System.out.println("connection established");
+            System.out.println("connection established ");
             stmt = con.createStatement();
             rs = stmt.executeQuery(query);
             while (rs.next()) {
