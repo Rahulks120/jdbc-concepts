@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e037071d-ea63-4d38-9964-57f5e44c00fd" name="Changes" comment="" />
+    <list default="true" id="e037071d-ea63-4d38-9964-57f5e44c00fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ivoyant/jdbc/BatchProcessingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ivoyant/jdbc/TransactionControlExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,10 +42,16 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InsertBlobExample">
-    <configuration name="DeleteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeleteExample" />
+  <component name="RunManager" selected="Application.BatchProcessingExample">
+    <configuration name="BatchProcessingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivoyant.jdbc.BatchProcessingExample" />
       <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivoyant.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,20 +77,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpdateExample" />
+    <configuration name="TransactionControlExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ivoyant.jdbc.TransactionControlExample" />
       <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ivoyant.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BatchProcessingExample" />
+        <item itemvalue="Application.TransactionControlExample" />
         <item itemvalue="Application.InsertBlobExample" />
         <item itemvalue="Application.PreparedStmtInsertExample" />
         <item itemvalue="Application.PreparedStmtDeleteExample" />
-        <item itemvalue="Application.UpdateExample" />
-        <item itemvalue="Application.DeleteExample" />
       </list>
     </recent_temporary>
   </component>
